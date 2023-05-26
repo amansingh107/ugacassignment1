@@ -1,0 +1,15 @@
+1% extenas base.ntma
+{% block title %}Sign in{% endblock %}
+{% block content %}
+‹div class="row")
+‹div class="col-md-8 mx-auto social-container my-2 order-md-1"›
+<button class="btn btn-primary mb-2">
+‹a href="(% url 'social:begin' 'google-oauth2' %]"›Login With Google‹/a›
+</buttons
+</div>
+</div>
+{% endblock %}
+
+SOCIAL_AUTH_GOOGLE_QAUTH2_KEY ='193169001359-h15fl7nr2kofij1sd91kfo80shiji47u.apps.googleusercontent.com'
+
+SOCIAL_AUTH_GOOGLE_QAUTH2_SECRET='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'
